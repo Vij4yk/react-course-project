@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn test --watch
+  /usr/local/bin/node /usr/local/bin/yarn test
 
 PATH: 
   /Applications/MAMP/bin/php/php7.1.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -37,6 +37,7 @@ npm manifest:
       "css-loader": "0.28.4",
       "enzyme": "3.0.0",
       "enzyme-adapter-react-16": "1.0.0",
+      "enzyme-to-json": "3.0.1",
       "jest": "20.0.4",
       "live-server": "^1.2.0",
       "moment": "2.18.1",
@@ -2144,6 +2145,12 @@ Lockfile:
       lodash "^4.17.4"
       object.assign "^4.0.4"
       prop-types "^15.6.0"
+  
+  enzyme-to-json@3.0.1:
+    version "3.0.1"
+    resolved "https://registry.yarnpkg.com/enzyme-to-json/-/enzyme-to-json-3.0.1.tgz#16468e2ff3e4db817d84f9df38760abbc322273d"
+    dependencies:
+      lodash "^4.17.4"
   
   enzyme@3.0.0:
     version "3.0.0"
@@ -6665,7 +6672,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c jest --config=jest.config.json --watch
+  Arguments: -c jest --config=jest.config.json
   Directory: /Users/billk/Desktop/react-course-projects/expensify-app
   Output:
   
