@@ -1,0 +1,20 @@
+babel compile command:
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react
+
+Add watch flag to watch for changes:
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+use a separate tab in command line terminal to run live-server public
+
+React synthetic events docs:  https://reactjs.org/docs/events.html  handle forms, etc.
+
+React component classes have to include a render method.
+
+let list = ['name', 'email', 'password'];
+
+is password in the list?
+
+list.indexOf('password') > -1 ? true : false
+
