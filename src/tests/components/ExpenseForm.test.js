@@ -16,3 +16,19 @@ test('should render expense form with expense data', () => {
     expect(wrapper).toMatchSnapshot();
 
 });
+
+test('should render error for invalid form submission', () => {
+
+    const wrapper = shallow(<ExpenseForm />);
+
+    wrapper.find('form').simulate('submit', {
+
+        preventDefault: () => { }
+
+    });
+
+    // expect(wrapper.state('error').length).toBeGreaterThan(0);
+
+
+
+});
