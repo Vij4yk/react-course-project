@@ -27,8 +27,6 @@ test('should render error for invalid form submission', () => {
 
     });
 
-    // expect(wrapper.state('error').length).toBeGreaterThan(0);
-
 
 
 });
