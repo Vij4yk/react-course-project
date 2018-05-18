@@ -1,0 +1,11 @@
+# Git Commands
+
+git init - create new git repo
+
+git add -  stages changes add files to staging area
+
+git commit - records changes from file from the staging area
+
+git status - shows changes to projects
+
+git log -  view recent commits
