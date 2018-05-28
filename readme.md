@@ -3,6 +3,15 @@
 git push heroku master
 
 
+# url for project:
+
+https://evercode1-react-course-1.herokuapp.com/
+
+you can use:
+
+heroku open on the command line to go there.
+
+
 # Git Commands
 
 git init - create new git repo
