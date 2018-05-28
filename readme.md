@@ -1,3 +1,8 @@
+# Deploy Heroku
+
+git push heroku master
+
+
 # Git Commands
 
 git init - create new git repo
